@@ -99,7 +99,7 @@ public class Main {
 		for(int i = 0; i <= 31; i++) {
 			if(check(x, i) == false) {
 				for(int j = 0; j < i; j++) {
-					x = apagar(x, i);
+					x = apagar(x, j);
 				}
 				break;
 			}
